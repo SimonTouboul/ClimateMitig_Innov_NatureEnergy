@@ -12,26 +12,19 @@ clear all
 *=== Definition of the different paths
 
 
-global droppath "C:/Users/Simon Touboul/Dropbox/Mitig_Innov_Update" 
+global compupath *== Path to access all the data
 
-global compupath "C:\Users\Simon Touboul\Desktop\THESIS\Data\Mitig_Innov_Update"
+global dopath *== Path to access do files
 
-global dopath "$droppath/Do"
+global datapath *== Path to access mitigation patents databases
 
-global datapath "$compupath/Mitigation"
+global patstpath *== Path to access all PATSTAT data
 
-global patstpath "C:\Users\Simon Touboul\Desktop\THESIS\Data\Data_general/Patstat"
+global otherpath *== Path to access "other" data (Country level variabnles (CO2 emissions, GDP per capita, ...))
 
-global otherpath "C:\Users\Simon Touboul\Desktop\THESIS\Data\Data_general/Other"
+global climpath *== Path to access climate indices
 
-global climpath "C:\Users\Simon Touboul\Desktop\THESIS\Data\Data_general/Climate_Indices"
-
-global Rpath "C:/Users/Simon Touboul/Dropbox/R"
-
-global Chinapath "$droppath/Focus_China"
-
-global zephyrpath "C:\Users\Simon Touboul\Desktop\THESIS\Data\Data_general\FDI\ZEPHYR\"
-
+global zephyrpath *== Path to access ZEPHYR( FDI) data
 
 
 *=================================						=================================
